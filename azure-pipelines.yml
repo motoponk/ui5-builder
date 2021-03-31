@@ -23,9 +23,9 @@ strategy:
     #mac_node_latest:
     #  imageName: 'macOS-10.15'
     #  node_version: 15.x
-    windows_node_latest:
-      imageName: 'windows-2019'
-      node_version: 15.x
+    #windows_node_latest:
+    #  imageName: 'windows-2019'
+    #  node_version: 15.x
 
 pool:
   vmImage: $(imageName)
